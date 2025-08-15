@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miaufield</title>
+    <link rel="shortcut icon" href="imagens/garfield.png" type="imagens/x-icon.">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.novo.css">
+</head>
+<body>
+    <header class="cabeçalho">
+         <img class="logo" src="imagens/icon.jpg" alt="logo do site">
+            <h1 class="titulo-site">LASANHA & BIGODES</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li class="menu-item"><a href="index.html">Quem é?</a></li> 
+            <li class="menu-item"><a href="produtos.html">Loja</a></li>
+            <li class="menu-item"><a href="formulario.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main class="conteudo">
+        <section class="conteudo-secao">
+            <div class="container-titulo">
+                <h2 class="titulo-produtos">Converse conosco</h2>
+            </div>
+            <form action="" method="post">
+                <div class="campo-formulario">
+                    <br>
+                    <label for="campo-nome">Nome:</label>
+                    <input type="text" id="campo-nome" name="campo-nome" placeholder="Nome Completo" required>
+                </div>
+                <br>
+                <div class="campo-formulario">
+                    <label for="campo-email">E-mail:</label>
+                    <input type="email" id="campo-email" name="campo-email" placeholder="exemplo@gmail.com" required data-tooltip="Preencha este campo!">
+                </div>
+                <br>
+                <div class="campo-formulario">
+                    <label for="campo-whats">WhatsApp:</label>
+                    <input type="tel" id="campo-nome" name="campo-whats" placeholder="(xx) x xxxx-xxxx" required>
+                </div>
+                <br>
+                <fieldset>
+                    <legend> Informe sua Idade </legend>
+                    <br>
+                    <label for="opcao1">
+                        <input type="radio" id="opcao1" name="opcoes">
+                       Entre 2 a 6 anos
+                    </label>
+                    <label for="opcao2">
+                        <input type="radio" id="opcao2" name="opcao2">
+                       Entre 7 e 11 anos
+                    </label>
+                    <label for="opcao3">
+                        <input type="radio" id="opcao3" name="opcao3">
+                       Entre 12 a 16 anos
+                    </label>
+                    <label for="opcao4">
+                        <input type="radio" id="opcao4" name="opcao4">
+                       Entre 17 a 25 anos
+                    </label>
+                
+                    <label for="opcao5">
+                        <input type="radio" id="opcao5" name="opcao5">
+                       26 ou mais...
+                    </label>
+                    <br><br><br>
+                </fieldset>
+
+                <br>
+                <label for="termos-uso">
+                    <input type="checkbox" id="termos-uso" name="termos">
+                    Aceito os termos de uso
+                </label>
+
+                <br><br>
+                <label for="turno">Selecione seu estado:</label>
+                <select id="turno" name="turno">
+                    <option value="estado1">Acre (AC)</option>
+                    <option value="estado2">Alagoas	(AL)</option>
+                    <option value="estado3">Amapá (AP)</option>
+                    <option value="estado4">Amazonas (AM)</option>
+                    <option value="estado5">Ceará (CE)</option>
+                    <option value="estado6">Espírito Santo (ES)</option>
+                    <option value="estado7">Goiás (GO)</option>
+                    <option value="estado8">Maranhão (MA)</option>
+                    <option value="estado9">Mato Grosso	(MT)</option>
+                    <option value="estado10">Mato Grosso do Sul	(MS)</option>
+                    <option value="estado11">Minas Gerais (MG)</option>
+                    <option value="estado12">Pará (PA)</option>
+                    <option value="estado13">Paraíba (PB)</option>
+                    <option value="estado14">Paraná	(PR)</option>
+                    <option value="estado15">Pernambuco	(PE)</option>
+                    <option value="estado16">Piauí (PI)</option>
+                    <option value="estado17">Rio de Janeiro	(RJ)</option>
+                    <option value="estado18">Maranhão (MA)</option>
+                    <option value="estado19">Mato Grosso (MT)</option>
+                    <option value="estado20">Mato Grosso do Sul (MS)</option>
+                    <option value="estado21">Rio Grande do Norte (RN)</option>
+                    <option value="estado22">Rio Grande do Sul (RS)</option>
+                    <option value="estado23">Rondônia (RO)</option>
+                    <option value="estado24">Roraima (RR)</option>
+                    <option value="estado25">Santa Catarina	(SC)</option>
+                    <option value="estado26">São Paulo (SP)</option>
+                    <option value="estado27">Sergipe (SE)</option>
+                    <option value="estado28">Tocantins (TO)</option>
+                </select>
+
+                <br><br>
+                <h2 class="titulo-msg"> ⊹ ࣪ ˖ Sua mensagem aqui .ᐟ     へ
+                    （• ˕ •マ</h2>
+                <textarea name="msg" id="caixa-mensagem" rows="16" cols="60"></textarea>
+
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar Formulário">
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <h3 class="copyright">Copyright 2025 - Lasanha & Bigodes</h3>
+        <p>Contato: atendimento@miaufield.com | +55 42 9650 0998S</p>
+    </footer>
+</body>
+</html>

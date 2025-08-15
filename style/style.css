@@ -1,0 +1,79 @@
+body {
+    background-color: #fad68f;
+}
+:root{
+    --cor-principal: #FAA419;
+    --cor-secundaria: #FFB53E;
+    --cor-destaque: #815131;
+    --branco: white;
+    --preto: rgb(105, 91, 91); 
+}
+
+.cabeca {
+    width: 180px
+}
+
+.cabeçalho{
+    background-color: var(--cor-principal);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 2%;
+}
+
+.titulo-site{
+    color: #ffffff;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px var(--cor-secundaria), 3px 3px 4px var(--cor-destaque);
+}
+
+.menu{
+    background-color: var(--cor-secundaria);
+}
+
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu-item > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-weight: 2em;
+    font-variant: small-caps;
+    transition: all 500ms;
+}
+
+.menu-item > a:hover{
+    color: var(--cor-destaque);
+    text-shadow: 2px 2px 5px var(--cor-principal);
+}
+
+main.conteudo {
+    width: 80%;
+    margin: 0 auto;
+    background-attachment: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+p {
+    font-size: 20px;
+    background-color: hwb(49 65% 0%);
+    color: #5a4a29;
+}
+img { 
+    width: 350px;
+}
+.banner {
+    width: 100%;
+}
+.logo {
+    width: 700px
+}
